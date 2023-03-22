@@ -14,7 +14,7 @@ local function UpdateActionButtonCooldown(button)
         -- If the action is on cooldown, then we want to make the icon grey.
         iconTexture:SetVertexColor(0.4, 0.4, 0.4);
     else
-        -- If the action is not a consumable or on cooldown, then we want to make the icon fully visible.
+        -- If the action is not a consumable with 0 stacks or on cooldown, then we want to make the icon fully visible.
         iconTexture:SetVertexColor(1, 1, 1);
     end
 end
