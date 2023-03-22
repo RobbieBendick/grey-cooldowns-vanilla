@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: GreyCooldownsVanilla
+## Author: Mageiden
+## Version: 1.0
+core.lua
